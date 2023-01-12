@@ -1,24 +1,19 @@
 
 /* Your CSS Code here. */
-.holder 
+holder
 {
-  display: flex;
- justify-content: space-between;
-/* 	        background-color: #cccaca;
-        width: 90px; */
-/*         height: 60px;
-        margin: 10px; */
-        text-align: center;
-        font-size: 40px;
-        line-height: 1.5;
+	  display: flex;
+  
+	
 }
-.holder > div
+
+ .holder > div
 {
 	background-color: #f1f1f1;
-  margin: 0 -5px;
   padding: 50px;
 	width:100px;
 	heigth:50px;
   font-size: 30px;
-} 
+	 justify-content: space-between;
+}  
 
