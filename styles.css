@@ -1,19 +1,22 @@
 
-/* Your CSS Code here. */
-holder
+/*  Your CSS Code here */
+.item
 {
-	  display: flex;
-  
+  width:100px;
+	height:100px;
+	background:lightblue; 
 	
 }
 
- .holder > div
+ .holder 
 {
-	background-color: #f1f1f1;
-  padding: 50px;
+/* 	background-color: #f1f1f1; */
+/* /*   padding: 50px;
 	width:100px;
-	heigth:50px;
-  font-size: 30px;
+	heigth:50px; */
+  font-size: 20px; 
+	display: flex;
+	flex-wrap:wrap;
 	 justify-content: space-between;
 }  
 
